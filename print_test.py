@@ -1,3 +1,6 @@
+from main import Employee, Developer, Manager
+import datetime
+
 ### Initialize variables
 developer_satoshi = Developer('Satoshi', 'Nakamoto', 100000, 'C++')
 developer_vitalik = Developer('Vitalik', 'Buterin', 150000, 'Solidity')
@@ -21,4 +24,4 @@ print(f'Check for subclass:', issubclass(Developer, Employee))
 print(f'Check if given date is workday:', Employee.is_workday(my_date))
 print(f'Check repr:', repr(developer_satoshi))
 print(f'Check str:', str(developer_satoshi))
-print(f'Combined salaries:', developer_satoshi + developer_satoshi)
+print(f'Combined salaries:', developer_satoshi + developer_vitalik)
