@@ -86,7 +86,7 @@ class TestManager(unittest.TestCase):
         self.assertEqual(str(self.mgr_1), "Manager: Elon Musk with salary 90000")
         
     # def test_repr(self):
-    #     self.assertEqual(repr(self.mgr_1), "Manager('Elon', 'Musk', '90000', employees=[<employee.Employee object at {}>])".format(hex(id(self.emp1))))
+    #     self.assertEqual(repr(self.mgr_1), "Manager('Elon', 'Musk', '90000', employees=[<employee.Employee object at {}>])".format(hex(id(self.emp_1))))
         
     def test_add(self):
         mgr_2 = Manager("Bill", "Gates", 80000)
